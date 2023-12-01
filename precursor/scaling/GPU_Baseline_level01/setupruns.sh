@@ -1,8 +1,8 @@
 #!/bin/sh
 
-RUNDIR=/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/Baseline_level01
+RUNDIR=/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/GPU_Baseline_level01
 BASENAME=Nodes
-NODES='64 128 256 512'
+NODES='4 8 16 32 64 128 256 512'
 EMAIL=lcheung@sandia.gov
 CONFFILE=MedWS_LowTI_precursor01.inp
 SUBMITFILE=frontier.sh
@@ -29,16 +29,17 @@ for NNODES in $NODES; do
 # #SBATCH -q debug
 
 export rocm_version=5.4.3
+export MPICH_GPU_SUPPORT_ENABLED=1
 
 module purge
-module load amd/${rocm_version}
+module load amd/\${rocm_version}
 module load craype-accel-amd-gfx90a
 module load PrgEnv-amd
 module load cray-mpich
 
-source /lustre/orion/cfd162/proj-shared/lcheung/spackbuilds/spack-manager.1/loadexawind.sh
+source /lustre/orion/cfd162/proj-shared/lcheung/spackbuilds/spack-manager.2/loadexawind.sh
 
-export LD_LIBRARY_PATH=/opt/rocm-${rocm_version}/llvm/lib/:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/opt/rocm-\${rocm_version}/llvm/lib/:$LD_LIBRARY_PATH
 export HIP_LAUNCH_BLOCKING=1
 
 export FI_MR_CACHE_MONITOR=memhooks
