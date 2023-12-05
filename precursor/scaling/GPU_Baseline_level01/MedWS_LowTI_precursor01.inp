@@ -1,5 +1,5 @@
 # --- Simulation time control parameters ---
-time.stop_time                           = 30000.0             # Max (simulated) time to evolve [s]
+time.stop_time                           = 500.0               # Max (simulated) time to evolve [s]
 time.max_step                            = -1                  
 time.fixed_dt                            = 0.1                 # Fixed timestep size (in seconds). If negative, then time.cfl is used
 time.checkpoint_interval                 = 8000                

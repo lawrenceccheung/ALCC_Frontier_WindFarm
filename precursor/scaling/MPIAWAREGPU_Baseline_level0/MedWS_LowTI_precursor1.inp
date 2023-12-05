@@ -89,4 +89,5 @@ sampling.p_hub.offsets                   = 150
 
 #---- extra params ----
 amrex.use_gpu_aware_mpi = 1
+amrex.the_arena_is_managed=0
 #== END AMR-WIND INPUT ==
