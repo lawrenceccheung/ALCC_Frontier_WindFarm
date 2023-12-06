@@ -1,0 +1,106 @@
+[
+    {
+        "NRANKS": 8,
+        "NNODES": 1,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0001/Nodes_0001-1521469.out",
+        "avgstats": [
+            39.0,
+            0.563376623376623,
+            85.92974025974027,
+            2.961428571428573,
+            89.45454545454548
+        ],
+        "iters": 77
+    },
+    {
+        "NRANKS": 16,
+        "NNODES": 2,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0002/Nodes_0002-1521471.out",
+        "avgstats": [
+            79.5,
+            0.26742405063291164,
+            42.81215189873418,
+            1.5330379746835447,
+            44.61405063291137
+        ],
+        "iters": 158
+    },
+    {
+        "NRANKS": 32,
+        "NNODES": 4,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0004/Nodes_0004-1521472.out",
+        "avgstats": [
+            160.5,
+            0.12853750000000014,
+            21.30931249999996,
+            0.7900500000000001,
+            22.227531249999974
+        ],
+        "iters": 320
+    },
+    {
+        "NRANKS": 64,
+        "NNODES": 8,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0008/Nodes_0008-1521473.out",
+        "avgstats": [
+            322.0,
+            0.06243965785381014,
+            10.632519440124442,
+            0.4343576982892683,
+            11.129502332814976
+        ],
+        "iters": 643
+    },
+    {
+        "NRANKS": 128,
+        "NNODES": 16,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0016/Nodes_0016-1521474.out",
+        "avgstats": [
+            636.5,
+            0.030796855345911957,
+            5.348419025157243,
+            0.2470220125786189,
+            5.6262515723270345
+        ],
+        "iters": 1272
+    },
+    {
+        "NRANKS": 256,
+        "NNODES": 32,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0032/Nodes_0032-1521475.out",
+        "avgstats": [
+            1276.5,
+            0.015309992163009574,
+            2.657034874608141,
+            0.14450626959247725,
+            2.8168299373040795
+        ],
+        "iters": 2552
+    },
+    {
+        "NRANKS": 512,
+        "NNODES": 64,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0064/Nodes_0064-1521476.out",
+        "avgstats": [
+            2481.0,
+            0.007614470872807872,
+            1.3398941745615895,
+            0.10015248941745863,
+            1.4476970368877262
+        ],
+        "iters": 4961
+    },
+    {
+        "NRANKS": 1024,
+        "NNODES": 128,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/CPU_Baseline_level01/Nodes_0128/Nodes_0128-1521477.out",
+        "avgstats": [
+            2500.5,
+            0.003990671999999959,
+            0.7036997200000059,
+            0.06632119999999957,
+            0.7740110400000005
+        ],
+        "iters": 5000
+    }
+]
