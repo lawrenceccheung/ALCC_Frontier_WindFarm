@@ -1,0 +1,80 @@
+[
+    {
+        "NRANKS": 8,
+        "NNODES": 1,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0001/Nodes_0001-1529455.out",
+        "avgstats": [
+            1197.5,
+            0.0007151052631579034,
+            2.4029340016708334,
+            0.0856135338345867,
+            2.4892748538011635
+        ],
+        "iters": 2394
+    },
+    {
+        "NRANKS": 16,
+        "NNODES": 2,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0002/Nodes_0002-1529921.out",
+        "avgstats": [
+            2218.0,
+            0.0004932036076662966,
+            1.5660581736189354,
+            0.04967066516347236,
+            1.616222096956018
+        ],
+        "iters": 4435
+    },
+    {
+        "NRANKS": 32,
+        "NNODES": 4,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0004/Nodes_0004-1529922.out",
+        "avgstats": [
+            2501.0,
+            0.0003742919416116795,
+            1.1439722055588513,
+            0.03720705858828406,
+            1.1815554889022029
+        ],
+        "iters": 5001
+    },
+    {
+        "NRANKS": 64,
+        "NNODES": 8,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0008/Nodes_0008-1529459.out",
+        "avgstats": [
+            2501.0,
+            0.0003486548690261975,
+            0.8747191361727593,
+            0.037450929814036964,
+            0.9125178564287072
+        ],
+        "iters": 5001
+    },
+    {
+        "NRANKS": 128,
+        "NNODES": 16,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0016/Nodes_0016-1529460.out",
+        "avgstats": [
+            2501.0,
+            0.000325792841431716,
+            0.7113758648270406,
+            0.03862053589282026,
+            0.7503224755049038
+        ],
+        "iters": 5001
+    },
+    {
+        "NRANKS": 256,
+        "NNODES": 32,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/TURBLAYOUT_GPU_level04/Nodes_0032/Nodes_0032-1529987.out",
+        "avgstats": [
+            2501.0,
+            0.00037673705258948304,
+            0.6125507898420303,
+            0.029909618076384172,
+            0.6428368526294775
+        ],
+        "iters": 5001
+    }
+]
