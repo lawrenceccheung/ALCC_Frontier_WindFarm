@@ -1,5 +1,31 @@
 [
     {
+        "NRANKS": 8,
+        "NNODES": 1,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/Baseline_level0/Nodes_0001/Nodes.out",
+        "avgstats": [
+            47.0,
+            0.4826881720430111,
+            69.20182795698922,
+            4.704731182795695,
+            74.38913978494627
+        ],
+        "iters": 93
+    },
+    {
+        "NRANKS": 16,
+        "NNODES": 2,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/Baseline_level0/Nodes_0002/Nodes.out",
+        "avgstats": [
+            95.5,
+            0.23153157894736873,
+            34.43226315789477,
+            2.4111578947368497,
+            37.07478947368423
+        ],
+        "iters": 190
+    },
+    {
         "NRANKS": 32,
         "NNODES": 4,
         "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/Baseline_level0/Nodes_0004/Nodes_0004-1515118.out",

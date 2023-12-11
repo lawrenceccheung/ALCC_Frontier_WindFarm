@@ -1,5 +1,31 @@
 [
     {
+        "NRANKS": 8,
+        "NNODES": 1,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/GPU_Baseline_level01/Nodes_0001/Nodes_0001-1526542.out",
+        "avgstats": [
+            954.5,
+            0.0012481132075471742,
+            3.5991336477987397,
+            0.16256708595387462,
+            3.7629701257861687
+        ],
+        "iters": 1908
+    },
+    {
+        "NRANKS": 16,
+        "NNODES": 2,
+        "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/GPU_Baseline_level01/Nodes_0002/Nodes_0002-1526544.out",
+        "avgstats": [
+            1789.0,
+            0.0006954221414593269,
+            1.9162697791445433,
+            0.0921754542913056,
+            2.009143695834502
+        ],
+        "iters": 3577
+    },
+    {
         "NRANKS": 32,
         "NNODES": 4,
         "file": "/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/GPU_Baseline_level01/Nodes_0004/Nodes_0004-1517317.out",
