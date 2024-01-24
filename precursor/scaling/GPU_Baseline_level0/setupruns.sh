@@ -2,8 +2,9 @@
 
 RUNDIR=/lustre/orion/cfd162/scratch/lcheung/ALCC_Scaling/GPU_Baseline_level0
 BASENAME=Nodes
+NODES='1 2'
 #NODES='4'
-NODES='8 16 32 64 128 256 512'
+#NODES='8 16 32 64 128 256 512'
 EMAIL=lcheung@sandia.gov
 CONFFILE=MedWS_LowTI_precursor1.inp
 SUBMITFILE=frontier.sh
