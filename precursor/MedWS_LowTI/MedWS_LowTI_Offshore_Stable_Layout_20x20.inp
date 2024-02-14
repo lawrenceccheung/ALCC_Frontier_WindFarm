@@ -544,7 +544,7 @@ samplePlane_.p_hub.origin                = -10240.0 -10240.0 0.0
 samplePlane_.p_hub.axis1                 = 20480.0 0.0 0.0     
 samplePlane_.p_hub.axis2                 = 0.0 20480.0 0.0     
 samplePlane_.p_hub.normal                = 0.0 0.0 1.0         
-samplePlane_.p_hub.offsets               = 150                 
+samplePlane_.p_hub.offsets               = 30 150 270          
 
 #---- extra params ----
 #== END AMR-WIND INPUT ==
