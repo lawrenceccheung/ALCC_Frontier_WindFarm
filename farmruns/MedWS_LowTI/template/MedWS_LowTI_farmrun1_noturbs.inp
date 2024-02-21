@@ -1,5 +1,5 @@
 # --- Simulation time control parameters ---
-time.stop_time                           = 27400.0             # Max (simulated) time to evolve [s]
+time.stop_time                           = 26900.0             # Max (simulated) time to evolve [s]
 time.max_step                            = -1                  
 time.fixed_dt                            = 0.02                # Fixed timestep size (in seconds). If negative, then time.cfl is used
 time.checkpoint_interval                 = 5000                
@@ -70,7 +70,7 @@ CoriolisForcing.rotational_time_period   = 86164.0900027328
 CoriolisForcing.north_vector             = 0.0 1.0 0.0         
 CoriolisForcing.east_vector              = 1.0 0.0 0.0         
 BoussinesqBuoyancy.reference_temperature = 284.47              
-BodyForce.magnitude                      = 0.0001451645080171842 0.0008319023562384522 0.0
+BodyForce.magnitude                      = 0.00014808429120586095 0.0008354164279411971 0.0
 ABL.temperature_heights                  = 0       500.0  600.0  1024.0
 ABL.temperature_values                   = 284.47  284.47  292.47  293.742
 time.plot_interval                       = 8000                
@@ -105,10 +105,10 @@ hubheight_.fields                        = velocity temperature tke
 #---- sample defs ----
 hubheight_.labels                        = Farm_hh             
 hubheight_.Farm_hh.type                  = PlaneSampler        
-hubheight_.Farm_hh.num_points            = 401 193             
-hubheight_.Farm_hh.origin                = 280.0 40.0 150.0    
-hubheight_.Farm_hh.axis1                 = 4000.0 0.0 0.0      
-hubheight_.Farm_hh.axis2                 = 0.0 1920.0 0.0      
+hubheight_.Farm_hh.num_points            = 457 201             
+hubheight_.Farm_hh.origin                = 0.0 0.0 150.0       
+hubheight_.Farm_hh.axis1                 = 4560.0 0.0 0.0      
+hubheight_.Farm_hh.axis2                 = 0.0 2000.0 0.0      
 hubheight_.Farm_hh.normal                = 0.0 0.0 0.0         
 
 #---- extra params ----
