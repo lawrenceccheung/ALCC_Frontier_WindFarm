@@ -30,7 +30,7 @@ transport.turbulent_prandtl              = 0.3333              # Turbulent prand
 geometry.prob_lo                         = 0.0 0.0 0.0         
 geometry.prob_hi                         = 4560.0 2000.0 960.0 
 amr.n_cell                               = 912 400 192         # Number of cells in x, y, and z directions
-amr.max_level                            = 2                   
+amr.max_level                            = 1                   
 geometry.is_periodic                     = 0 1 0               
 xlo.type                                 = mass_inflow         
 xlo.density                              = 1.2456              
@@ -78,7 +78,7 @@ io.plot_file                             = plt
 io.KE_int                                = -1                  
 
 #---- tagging defs ----
-tagging.labels                           = Farm_level_0_zone T0_level_1_zone
+tagging.labels                           = Farm_level_0_zone   
 tagging.Farm_level_0_zone.type           = GeometryRefinement  
 tagging.Farm_level_0_zone.shapes         = Farm_level_0_zone   
 tagging.Farm_level_0_zone.level          = 0                   
@@ -87,14 +87,6 @@ tagging.Farm_level_0_zone.Farm_level_0_zone.origin = 1080.0 280.0 -42.0
 tagging.Farm_level_0_zone.Farm_level_0_zone.xaxis = 2400.0 0.0 0.0      
 tagging.Farm_level_0_zone.Farm_level_0_zone.yaxis = -0.0 1440.0 -0.0    
 tagging.Farm_level_0_zone.Farm_level_0_zone.zaxis = 0.0 0.0 672.0       
-tagging.T0_level_1_zone.type             = GeometryRefinement  
-tagging.T0_level_1_zone.shapes           = T0_level_1_zone     
-tagging.T0_level_1_zone.level            = 1                   
-tagging.T0_level_1_zone.T0_level_1_zone.type = box                 
-tagging.T0_level_1_zone.T0_level_1_zone.origin = 2040.0 760.0 -42.0  
-tagging.T0_level_1_zone.T0_level_1_zone.xaxis = 480.0 0.0 0.0       
-tagging.T0_level_1_zone.T0_level_1_zone.yaxis = -0.0 480.0 -0.0     
-tagging.T0_level_1_zone.T0_level_1_zone.zaxis = 0.0 0.0 432.0       
 
 #---- postprocessing defs ----
 incflo.post_processing                   = hubheight_          
