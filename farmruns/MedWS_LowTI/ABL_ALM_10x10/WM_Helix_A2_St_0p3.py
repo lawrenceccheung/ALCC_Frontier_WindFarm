@@ -28,7 +28,7 @@ AWC_amp      = [2.0]; AWC_amp = '"{}"'.format(" ".join(map(str, AWC_amp)));
 AWC_clock    = [90]; AWC_clock = '"{}"'.format(" ".join(map(str, AWC_clock)));
 AWCoptions = ("SD_param_Ptch_Cntrl:1 "
               "DISCONparam_AWC_Mode:1 "
-              "DISCONparam_AWC_NumModes:%i DISCONparam_AWC_n:%s DISCONparam_AWC_freq:%s DISCONparam_AWC_amp:%s DISCONparam_AWC_amp:%s "%(AWC_NumModes,AWC_n,AWC_freq, AWC_amp, AWC_clock)
+              "DISCONparam_AWC_NumModes:%i DISCONparam_AWC_n:%s DISCONparam_AWC_freq:%s DISCONparam_AWC_amp:%s DISCONparam_AWC_clockangle:%s "%(AWC_NumModes,AWC_n,AWC_freq, AWC_amp, AWC_clock)
              )
 
 
