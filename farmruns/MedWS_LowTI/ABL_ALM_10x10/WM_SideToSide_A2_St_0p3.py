@@ -13,6 +13,7 @@ OFoptions=("ADparam_TwrAero:True ADparam_TwrShadow:0 FSTparam_CompHydro:0 FSTpar
                "EDparam_PtfmYDOF:False "
                "AMRparam_Actuator_epsilon:[2;2;2] "
                "AMRparam_Actuator_epsilon_tower:[2;2;2] "
+               "AMRparam_Actuator_openfast_stop_time:2000.0 "           
               )
 DISCON2p8_options = ("SDparam_DLL_FileName:/lustre/orion/cfd162/proj-shared/lcheung/ROSCO_2.8/ROSCO/build/libdiscon.so "
                      "SDparam_DLL_InFile:IEA-15-240-RWT-Monopile_DISCON.IN "
