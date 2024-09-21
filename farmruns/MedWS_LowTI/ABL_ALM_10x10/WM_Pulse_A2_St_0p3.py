@@ -15,6 +15,8 @@ OFoptions=("ADparam_TwrAero:True ADparam_TwrShadow:0 FSTparam_CompHydro:0 FSTpar
                "AMRparam_Actuator_epsilon_tower:[2;2;2] "
                "AMRparam_Actuator_openfast_stop_time:2000.0 "
               )
+
+# Change the path to libdiscon if not on Frontier
 DISCON2p8_options = ("SDparam_DLL_FileName:/lustre/orion/cfd162/proj-shared/lcheung/ROSCO_2.8/ROSCO/build/libdiscon.so "
                      "SDparam_DLL_InFile:IEA-15-240-RWT-Monopile_DISCON.IN "
                      )
@@ -32,3 +34,8 @@ AWCoptions = ("SD_param_Ptch_Cntrl:1 "
               "DISCONparam_AWC_NumModes:%i DISCONparam_AWC_n:%s DISCONparam_AWC_freq:%s DISCONparam_AWC_amp:%s DISCONparam_AWC_clockangle:%s "%(AWC_NumModes,AWC_n,AWC_freq, AWC_amp, AWC_clock)
              )
 NAWCTURBS = 3
+
+# Change these directories if you are not on Frontier
+precursordir  = '/lustre/orion/cfd162/proj-shared/lcheung/ALCC_Frontier_WindFarm/precursor/MedWS_LowTI_10kmX10km/'
+bndryfiles    = '/lustre/orion/cfd162/proj-shared/lcheung/ALCC_Frontier_WindFarm/precursor/MedWS_LowTI_10kmX10km/bndry_data/' 
+precursorsetup= precursordir+'Offshore_MedWS_LowTI_Precursor_10kmX10km_bndry.inp'
